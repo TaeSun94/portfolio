@@ -1,5 +1,5 @@
-# portfolio
-> Description : Using Web to make portfolio
+# Portfolio
+> Description : Using dynamic Web to make portfolio
 
 # Information Project
 > subscriber : Taesun, You (Email : tyzlddy@naver.com) [Github Link](https://github.com/TaeSun94), [Notion](https://www.notion.so/234c7be16ba1468eb0d048760de495b0?v=623135eeea8b432282d545de6d28bdff)
