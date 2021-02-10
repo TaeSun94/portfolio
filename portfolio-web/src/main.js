@@ -4,8 +4,9 @@ import router from "./router";
 import store from "./store";
 import Vuetify from "vuetify";
 import 'vuetify/dist/vuetify.min.css';
-
+import VueTypePlugin from 'vue-typer';
 Vue.use(Vuetify);
+Vue.use(VueTypePlugin);
 Vue.config.productionTip = false;
 
 new Vue({

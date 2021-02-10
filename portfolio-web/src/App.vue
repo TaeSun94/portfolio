@@ -1,9 +1,9 @@
 <template>
   <v-app id="app">
-    <v-btn color="success">Success </v-btn>
+    <!-- 한글 버전과 영문 버전으로 나눌 생각 -->
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">한글 버전</router-link> |
+      <router-link to="/about">영문 버전</router-link>
     </div>
     <router-view />
   </v-app>
