@@ -1,5 +1,5 @@
 <template>
-  <v-contiainer>
+  <v-container>
     <div class="row">
       <div class="col">
         <!-- <vue-typer text="{{message}}"></vue-typer> -->
@@ -11,7 +11,7 @@
         <v-btn @click="goIntroduce()"> 둘러 보기 </v-btn>
       </div>
     </div>
-  </v-contiainer>
+  </v-container>
 </template>
 
 <script>
