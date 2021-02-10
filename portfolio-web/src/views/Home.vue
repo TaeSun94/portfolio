@@ -1,18 +1,37 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-  </div>
+  <v-contiainer>
+    <div class="row">
+      <div class="col">
+        <!-- <vue-typer text="{{message}}"></vue-typer> -->
+        <vue-typer text="안녕하세요" type-delay='100' erase-style='backspace' :erase-on-complete='true'></vue-typer>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <v-btn @click="goIntroduce()"> 둘러 보기 </v-btn>
+      </div>
+    </div>
+  </v-contiainer>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
-
 export default {
   name: "Home",
   components: {
-    HelloWorld
+
+  },
+  data() {
+    return {
+      message : "Hello World! I was registered globally!"
+    }
+  },
+  methods:{
+    goIntroduce(){
+      location.href=`/profile`;
+    }
   }
 };
 </script>
+
+<style scoped>
+</style>
