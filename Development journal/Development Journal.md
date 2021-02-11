@@ -24,3 +24,18 @@ Vue.use(VueTyperPlugin)
 ```
 
 [vue-typer properties 및 effect 참고](https://www.npmjs.com/package/vue-typer)
+
+
+
+### 2021-02-11
+
+1. Add HistoryRoadMap.vue - using animation, canvas tag, Modify Home.vue - Change KeyFrame & do not use vue-typer module
+
+   [Animation Document](https://developer.mozilla.org/ko/docs/Web/API/AnimationEvent)
+
+   [CSS Animation Document](https://developer.mozilla.org/ko/docs/Web/CSS/CSS_Animations/Using_CSS_animations)
+
+   [Canvas Tag Usage](https://www.w3schools.com/tags/tag_canvas.asp)
+
+   [KeyFrame Document](https://developer.mozilla.org/ko/docs/Web/CSS/@keyframes)
+
