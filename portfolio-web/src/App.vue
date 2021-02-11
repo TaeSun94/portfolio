@@ -5,7 +5,9 @@
       <router-link to="/">한글 버전</router-link> |
       <router-link to="/about">영문 버전</router-link>
     </div>
-    <router-view />
+    <div id="main">
+      <router-view />
+    </div>
   </v-app>
 </template>
 
@@ -29,5 +31,11 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+#main {
+  flex: 1;
+  justify-content: center;
+  align-content: center;
 }
 </style>
