@@ -1,7 +1,5 @@
 <template>
-    <v-container>
         <canvas id="historyLine"></canvas>
-    </v-container>
 </template>
 <script>
 export default {
@@ -16,7 +14,8 @@ export default {
 
 #historyLine{
     background: red;
-    width: 80px;
-    height: 60px;
+    height: 10px;
+    align-self: center;
+    width: 80%;
 }
 </style>

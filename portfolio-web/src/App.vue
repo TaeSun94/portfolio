@@ -36,6 +36,6 @@
 #main {
   flex: 1;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 </style>

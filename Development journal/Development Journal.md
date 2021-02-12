@@ -39,3 +39,8 @@ Vue.use(VueTyperPlugin)
 
    [KeyFrame Document](https://developer.mozilla.org/ko/docs/Web/CSS/@keyframes)
 
+
+
+### 2021-02-12
+
+1. take a rest.

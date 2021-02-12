@@ -1,8 +1,8 @@
 <template>
-    <v-container id="content">
+    <div id="container">
         <h1>History</h1>
         <RoadMap />
-    </v-container>
+    </div>
 </template>
 
 <script>
@@ -16,11 +16,10 @@ export default {
 </script>
 
 <style scoped>
-#content {
-    flex: 1;
-    justify-content: center;
+#container {
+    justify-items: center;
+    align-items: center;
 }
-
 #branch{
     justify-content: center;
     align-content: center;
